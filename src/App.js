@@ -8,6 +8,7 @@ import { useState, useEffect, useRef } from "react";
 function App() {
   const [userName, setuserName] = useState("");
   const [result, setResult] = useState("");
+  const [variant, setVariant] = useState("success");
 
   //using useRef to auto focus on input field
   const ref = useRef(null);
@@ -39,8 +40,9 @@ function App() {
       <FindNationality
         userName={userName}
         result={result}
-        setResult={setResult}></FindNationality>
-      <h3>{result}</h3>
+        setResult={setResult}
+        setVariant={setVariant}></FindNationality>
+      <Alert variant={variant}>{result}</Alert>
     </div>
   );
 }
