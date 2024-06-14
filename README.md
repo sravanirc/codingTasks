@@ -1,3 +1,11 @@
+## coding Task: Nationalize
+
+## Description: This task is to build a react app that lets user find the nationality of a name. This app utilises API calls to fetch the data from https://nationalize.io/ and displays the country name and probability of a name. 
+
+## Functionality:  
+
+![screen1](https://github.com/sravanirc/codingTasks/assets/108229743/cdf8a057-9390-489c-9231-7aa8e0f4e40f)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
